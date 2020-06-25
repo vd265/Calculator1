@@ -20,3 +20,16 @@ class Calculator:
     def subtract(self, a, b):
         self.result = subtraction(a, b)
         return self.result
+
+    def multiply(self, a, b):
+        self.result = self.multiply(a, b)
+        return self.result
+
+    def divide(self, a, b):
+        self.result = self.divide(a, b)
+
+    def square(self, a, b):
+        self.result = self.square(a, b)
+
+    def sqrt(self, a, b):
+        self.result = self.sqrt(a, b)
